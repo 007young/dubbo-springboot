@@ -9,7 +9,6 @@
     <packaging>jar</packaging>
 
     <name>dubbo-provider</name>
-    <description>Dubbo provider for Spring Boot</description>
 
     <parent>
         <groupId>com.xiaoze.dubbo</groupId>
@@ -30,15 +29,6 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 
 </project>
